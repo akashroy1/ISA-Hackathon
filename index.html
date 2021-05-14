@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/demo.css">
+    <link rel="stylesheet" href="CSS/form-basic.css">
+    <link rel="stylesheet" href="CSS/form-login.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#" class="">LaboRAB</a>
+        <a href="#home" class="active">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <ul>
+        <li><a href="index.html" class="active">Login</a></li>
+        <li><a href="form-register.html">Register</a></li>
+    </ul>
+
+    <div class="main-content">
+
+
+        <form class="form-login" method="post" action="#">
+
+            <div class="form-log-in-with-email">
+
+                <div class="form-white-background">
+
+                    <div class="form-title-row">
+                        <h1>Log in</h1>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Email</span>
+                            <input type="email" name="email">
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Password</span>
+                            <input type="password" name="password">
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit">Log in</button>
+                    </div>
+
+                </div>
+
+                <a href="#" class="form-forgotten-password">Forgotten password &middot;</a>
+                <a href="#" class="form-create-an-account">Create an account &rarr;</a>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
